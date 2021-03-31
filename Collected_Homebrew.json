@@ -12,8 +12,8 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1617083257,
-		"dateLastModified": 1617083257
+		"dateAdded": 1617157929,
+		"dateLastModified": 1617157929
 	},
 	"monster": [
 		{
@@ -687,6 +687,598 @@
 				"charmed",
 				"frightened",
 				"restrained"
+			]
+		},
+		{
+			"name": "Yuan-ti Abomination Guard",
+			"group": "Yuan-Ti",
+			"source": "chb",
+			"page": 0,
+			"size": "L",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger",
+					"yuan-ti"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"half plate + shield + Defense"
+					]
+				}
+			],
+			"hp": {
+				"average": 153,
+				"formula": "18d10 + 54"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 17,
+			"int": 17,
+			"wis": 15,
+			"cha": 18,
+			"save": {
+				"str": "+9",
+				"dex": "+7",
+				"con": "+7",
+				"wis": "+6"
+			},
+			"skill": {
+				"athletics": "+9",
+				"intimidation": "+8",
+				"perception": "+6"
+			},
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic"
+			],
+			"cr": "11",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Abomination Form Only)",
+					"headerEntries": [
+						"The yuan-ti's spellcasting ability is Charisma (spell save {@dc 16}). The yuan-ti can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell animal friendship} (snakes only)"
+					],
+					"daily": {
+						"1": [
+							"{@spell fear}"
+						],
+						"3": [
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Alert",
+					"entries": [
+						"The yuan-ti gains a +5 bonus to its initiative, it can't be surprised while it is conscious, and other creatures don't gain advantage on attack rolls against it as a result of being hidden."
+					]
+				},
+				{
+					"name": "Improved Critical",
+					"entries": [
+						"The yuan-ti scores a critical hit on a roll of 19 or 20."
+					]
+				},
+				{
+					"name": "Indomitable (1/Long rest)",
+					"entries": [
+						"The yuan-ti can re-roll a saving throw it has failed."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The yuan-ti has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapon",
+					"entries": [
+						"The yuan-ti wields a +1 Large longsword, included in its attacks."
+					]
+				},
+				{
+					"name": "Mobile",
+					"entries": [
+						"The yuan-ti ignores the extra movement cost of difficult terrain when it takes the dash action. In addition, when it makes a melee attack against a creature it doesn't provoke opportunity attacks from that creature for the rest of its turn."
+					]
+				},
+				{
+					"name": "Second Wind (1/Short rest)",
+					"entries": [
+						"The yaun-ti can use a bonus action to regain 17 ({@dice 1d10 + 12}) hit points."
+					]
+				},
+				{
+					"name": "Sentinel",
+					"entries": [
+						"When the yuan-ti hits a creature with an opportunity attack, the creature's speed becomes 0 for the rest of its turn, and creatures within 5 feet of the yuan-ti provoke opportunity attacks even if they take the Disengage action."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The yuan-ti can use its action to polymorph into a Large snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+					]
+				},
+				{
+					"name": "Multiattack (Abomination Form Only)",
+					"entries": [
+						"The yaun-ti makes three ranged or melee attacks, but can use its bite and constrict attacks only once each."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}12 ({@damage 2d6 + 5}) bludgeoning damage and the target is {@condition grappled} (escape {@dc 15}). Until the grapple ends, the target is {@condition restrained} and the yuan-ti can't constrict another target."
+					]
+				},
+				{
+					"name": "Longsword (Abomination Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Longbow (Abomination Form Only)",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Protection",
+					"entries": [
+						"When a creature the yuan-ti can see attacks a target within 5 feet of the yuan-ti, the yaun-ti can use its reaction to impose disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Sentinel Strike",
+					"entries": [
+						"When a creature within 5 feet of the yuan-ti makes an attack against a target other than the yuan-ti, the yuan-ti can make a melee attack against the attacking creature.",
+						"Reply"
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P",
+				"S"
+			],
+			"spellcastingTags": [
+				"F",
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened"
+			]
+		},
+		{
+			"name": "Yuan-ti Cleric of Sseth",
+			"source": "chb",
+			"page": 0,
+			"size": "M",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger",
+					"yuan-ti"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 82,
+				"formula": "15d8 + 15"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 13,
+			"int": 16,
+			"wis": 20,
+			"cha": 14,
+			"save": {
+				"dex": "+3",
+				"con": "+3",
+				"wis": "+7"
+			},
+			"skill": {
+				"arcana": "+5",
+				"insight": "+7",
+				"religion": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 15,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting (Yuan-ti Form Only)",
+					"headerEntries": [
+						"The yuan-ti's spellcasting ability is Charisma (spell save {@dc 14}. {@hit 6} to hit with attack spells). The yuan-ti can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell animal friendship} (snakes only)"
+					],
+					"daily": {
+						"1": [
+							"{@spell fear}"
+						],
+						"3": [
+							"{@spell darkness}",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The yuan-ti is a 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The yuan-ti has the following sorcerer spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell mending}",
+								"{@spell poison spray}",
+								"{@spell resistance}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell bane}",
+								"{@spell false life}",
+								"{@spell ray of sickness}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell ray of enfeeblement}",
+								"{@spell silence}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell animate dead}",
+								"{@spell dispel magic}",
+								"{@spell vampiric touch}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell blight}",
+								"{@spell death ward}"
+							]
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Channel Sseth (2/Short rest)",
+					"entries": [
+						"When the yuan-ti hits a creature with a melee attack, the yuan-ti can choose to add 13 additional necrotic damage to the attack."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The yuan-ti has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Quick Coils",
+					"entries": [
+						"When the yuan-ti has a target {@condition grappled}, it can make a constrict attack as a bonus action."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The yuan-ti can use its action to polymorph into a Medium snake or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies."
+					]
+				},
+				{
+					"name": "Sseth's Blessing",
+					"entries": [
+						"The yuan-ti's weapon attacks deal an extra {@damage 1d8} poison damage (included in the attack)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 4 ({@damage 1d8}) poison damage and the target must make a {@dc 12} Strength saving throw or be {@condition grappled}."
+					]
+				},
+				{
+					"name": "Shortsword (Yuan-ti Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, plus 4 ({@damage 1d8}) poison damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target {@condition grappled} by the yuan-ti. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage plus 4 ({@damage 1d8}) poison damage and the target is {@condition grappled} (escape {@dc 12}). Until the grapple ends, the target is {@condition restrained} and the yuan-ti can't constrict another target."
+					]
+				},
+				{
+					"name": "Summon Serpents (1/Day)",
+					"entries": [
+						"The magically summons {@dice 1d4} giant poisonous snakes. The summoned snakes appear in an unoccupied space within 60 feet of their summoner, act as an allies of their summoner, and follow its commands. The snakes remain until they or their summoner dies, or until the summoner dismisses them as a bonus action."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"P"
+			],
+			"spellcastingTags": [
+				"CS",
+				"F",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"frightened",
+				"incapacitated",
+				"poisoned"
+			]
+		},
+		{
+			"name": "Dracolisk",
+			"source": "chb",
+			"page": 0,
+			"size": "H",
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 114,
+				"formula": "12d12 + 36"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30,
+				"fly": 60
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 17,
+			"int": 8,
+			"wis": 12,
+			"cha": 14,
+			"trait": [
+				{
+					"name": "Savings Throws Str +8, Dex +5, Con +6",
+					"entries": [
+						"Skills Athletics +8 Stealth +5",
+						"Damage Resistances acid",
+						"Senses darkvision 90 ft., passive Perception 11",
+						"Languages -- Challenge 8 (3,900 XP)"
+					]
+				},
+				{
+					"name": "Dragon Ancestry (Elite Trait, recharges after a short or long rest)",
+					"entries": [
+						"If the dracolisk is reduced to 0 hit points, it doesn't die or fall {@condition unconscious}. Instead, all conditions and effects it is suffering end for it, it regains 100 hit points, all of its abilities recharge, and it can immediately use an elite action."
+					]
+				},
+				{
+					"name": "Limited Magic Resistance",
+					"entries": [
+						"The basilisk has advantage on saving throws against spells and magical effects that are 3rd level or lower."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The basilisk's weapon attacks are considered magical for overcoming resistances."
+					]
+				},
+				{
+					"name": "Petrifying Gaze",
+					"entries": [
+						"If a creature starts its turn within 30 ft. of the basilisk and the two of them can see each other, the basilisk can force the creature to make a {@dc 14} Constitution saving throw if the basilisk isn't Incapacitated. On a failed save, the creature magically begins to turn to stone and is Restrained. It must repeat the saving throw at the end of its next turn. On a success, it is no longer {@condition restrained} or petrifying, but it gains one level of {@condition exhaustion} that last for 1 minute. On a failure, the creature is Petrified until freed by the Greater Restoration spell or other magic.",
+						"A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save.",
+						"If the basilisk sees its reflection within 30 ft. of it in bright light, it mistakes itself for a rival and targets itself with its gaze."
+					]
+				},
+				{
+					"name": "Relentless",
+					"entries": [
+						"If the basilisk has advantage on saving throws against effects that inflict the {@condition paralyzed}, {@condition restrained}, or {@condition stunned} condition."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The basilisk can make three attacks: two claw attacks and one bite attack."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d6 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d10 + 5}) piercing damage plus 7 ({@damage 2d6}) acid damage."
+					]
+				},
+				{
+					"name": "Acid Breath {@recharge 5}",
+					"entries": [
+						"The basilisk exhales acid in a 40-foot line that is 5 feet wide. Each creature in that line must make a {@dc 14} Dexterity saving throw, taking 33 ({@damage 6d10}) acid damage on a failed save, or half as much damage on a successful one.",
+						"ELITE ACTIONS",
+						"Once the dracolisk's elite trait is activated it can take an elite action, choosing from the options below, on its initiative count +10, or in place of one of its standard actions on its turn."
+					]
+				},
+				{
+					"name": "Wing Attack",
+					"entries": [
+						"The basilisk beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 16} Dexterity saving throw or take 12 ({@damage 2d6 + 5}) bludgeoning damage and be knocked {@condition prone}. The basilisk can then fly up to half its flying speed."
+					]
+				},
+				{
+					"name": "Darkness",
+					"entries": [
+						"The basilisk conjures magical darkness that spreads from a point the basilisk chooses within 60 feet of it, filling a 15-foot-radius sphere for 1 minute or until the basilisk dismisses it as a bonus action or dies. The darkness spreads around corners. A creature with darkvision, except the basilisk, can't see through this darkness, and nonmagical light can't illuminate it. If any of the effect's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Weapons"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
 			]
 		}
 	]
