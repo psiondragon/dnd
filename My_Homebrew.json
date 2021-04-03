@@ -12,12 +12,13 @@
 				"convertedBy": []
 			}
 		],
-		"dateAdded": 1617343750,
-		"dateLastModified": 1617343750
+		"dateAdded": 1617484615,
+		"dateLastModified": 1617484615
 	},
 	"monster": [
 		{
 			"name": "Sarrukh",
+			"isNamedCreature": true,
 			"source": "MyHomebrew",
 			"size": "L",
 			"type": {
@@ -158,7 +159,6 @@
 						"4": {
 							"spells": [
 								"{@spell phantasmal killer}",
-								"{@spell vitriolic sphere|XGE}",
 								"{@spell vitriolic sphere|XGE}"
 							],
 							"slots": 3
@@ -259,7 +259,7 @@
 				{
 					"name": "Constrict",
 					"entries": [
-						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is half-{@condition stunned}, and it can't constrict another target."
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d6 + 6}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 20}). Until this grapple ends, the target is {@condition restrained}, and it can't constrict another target."
 					]
 				},
 				{
@@ -271,7 +271,7 @@
 				{
 					"name": "Longbow (Abomination Form Only)",
 					"entries": [
-						"{@atk rw} {@hit 6} to hit, range 150/600 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+						"{@atk rw} {@hit 10} to hit, range 150/600 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage plus 21 ({@damage 6d6}) poison damage."
 					]
 				},
 				{
@@ -285,7 +285,7 @@
 				{
 					"name": "Trident of the Sarrukh: Domination",
 					"entries": [
-						"As a bonus action, the trident can be used to cast {@spell Dominate Person} on a target within 10 ft. of the one that was stricken if the creature is smaller than the weilder. The trident holds concentration in this way. It has 3 charges, recharging by {@dice 1d3} at dawn."
+						"As a bonus action, the trident can be used to cast {@spell Dominate Person} on a target within 10 ft. of the one that was stricken if the creature is a size category smaller than the wielder. The trident holds concentration in this way, but only if the attuned creature is holding the trident. An effect that dispels magic can attempt to break its concentration (save {@dc 15}). It has 3 charges, recharging by {@dice 1d3} charges at dawn."
 					]
 				}
 			],
@@ -366,11 +366,260 @@
 			],
 			"conditionInflict": [
 				"grappled",
-				"stunned"
+				"restrained"
 			],
 			"conditionInflictSpell": [
 				"charmed",
 				"frightened"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Drow Controller",
+			"source": "MyHomebrew",
+			"page": 128,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item studded leather armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 71,
+				"formula": "11d8 + 22"
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(winged boots)"
+				},
+				"canHover": false
+			},
+			"str": 13,
+			"dex": 18,
+			"con": 14,
+			"int": 13,
+			"wis": 13,
+			"cha": 16,
+			"save": {
+				"dex": "+7",
+				"con": "+5",
+				"wis": "+4"
+			},
+			"skill": {
+				"stealth": "+10",
+				"arcana": "+4",
+				"performance": "+6",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The drow's spellcasting ability is Charisma (spell save {@dc 12}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell dancing lights}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness}",
+							"{@spell faerie fire}",
+							"{@spell levitate} (self only)"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell infestation|XGE}",
+								"{@spell lightning lure|TCE}",
+								"{@spell prestidigitation}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell earth tremor|XGE}",
+								"{@spell expeditious retreat}",
+								"{@spell faerie fire}",
+								"{@spell shield}"
+							],
+							"slots": 3
+						},
+						"2": {
+							"spells": [
+								"{@spell earthbind|XGE}",
+								"{@spell enhance ability}",
+								"{@spell hold person}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell hypnotic pattern}",
+								"{@spell sleet storm}",
+								"{@spell slow}"
+							],
+							"slots": 3
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The drow has advantage on saving throws against being {@condition charmed}, and magic can't put the drow to sleep."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Drow Winged Boots",
+					"entries": [
+						"While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land. The boots regain 2 hours of flying capability for every 12 hours they aren't in use. The power of these boots fade within 1 day when not within the presence of infernal drow magic."
+					]
+				},
+				{
+					"name": "War Caster",
+					"entries": [
+						"You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:",
+						"You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.",
+						"You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.",
+						"When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The drow makes two shortsword or two longbow attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) poison damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 150/600 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage, and the target must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, the target is also {@condition unconscious} while {@condition poisoned} in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The drow adds 3 to its AC against one melee attack that would hit it. To do so, the drow must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "variant",
+					"name": "Drow Magic Armor and Weapons",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Drow often wear magic armor and carry magic weapons that lose their enhancement bonuses permanently if they are exposed to sunlight for 1 hour or longer.",
+								"A {@creature drow elite warrior} wearing {@item +2 Studded Leather Armor||+2 studded leather} and carrying a {@item +2 shortsword} has AC 20 and a +2 bonus on attack and damage rolls with shortsword attacks."
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					"A drow elite warrior with spellcasting ability, to control the battlefield from afar with its spells."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://s3.amazonaws.com/files.d20.io/images/213137457/K-aq7mrNL4WF0umaHHSGmg/max.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://s3.amazonaws.com/files.d20.io/images/213137457/K-aq7mrNL4WF0umaHHSGmg/max.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://noads.5e.tools/audio/bestiary/drow-elite-warrior.mp3?v=1.125.3"
+			},
+			"traitTags": [
+				"Fey Ancestry",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"E",
+				"U"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"unconscious"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
