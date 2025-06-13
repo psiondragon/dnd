@@ -1,21 +1,43 @@
 {
   "name": "psi-module",
   "title": "Psi Module",
+  "license": "NA",
   "description": ".",
   "author": "Psi",
   "authors": [],
   "url": "",
   "flags": {},
   "version": "12",
-  "minimumCoreVersion": "12.0",
-  "compatibleCoreVersion": "12.999",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [],
-  "system": [],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
 
+  "scripts": [],
+  "styles": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.3.5",
+          "verified": "4.3.5"
+        }
+      }
+    ]
+  },  
+  "packs": [],
+  "esmodules": [],
   "dependencies": [
     {
       "name": "put-name-here-46",
@@ -314,8 +336,9 @@
       "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_e186c3cf951d0442ea1b07a35cb01a85080cd6bb4235c6fd3bb013d0f672af72/module.json"
     }
   ],
-  "manifest": "",
-  "download": "",
-  "protected": false,
-  "coreTranslation": false
+  
+  "socket": true,
+  "persistentStorage": true
+  "manifest": "https://raw.githubusercontent.com/psiondragon/dnd/refs/heads/main/module.json",
+  "download": "https://github.com/psiondragon/dnd/raw/refs/heads/main/psi-module.zip",
 }
