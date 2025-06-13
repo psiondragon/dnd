@@ -1,14 +1,14 @@
 {
   "id": "psi-module",
-  "title": "DDB-Importer: A D&D Beyond Integrator",
+  "title": "Psi MOdule",
   "license": "MIT License",
-  "description": "Import your dndbeyond.com characters, spells, items, monsters, encounters, and adventures!",
-  "version": "6.3.0",
-  "download": "https://github.com/mrprimate/ddb-importer/releases/download/6.3.0/ddb-importer.zip",
-  "manifest": "https://github.com/mrprimate/ddb-importer/releases/download/latest/module.json",
-  "readme": "https://github.com/MrPrimate/ddb-importer/blob/main/README.md",
-  "changelog": "https://github.com/MrPrimate/ddb-importer/blob/main/CHANGELOG.md",
-  "url": "https://github.com/mrprimate/ddb-importer",
+  "description": ".",
+  "version": "1",
+  "download": "https://github.com/psiondragon/dnd/raw/refs/heads/main/psi-module.zip",
+  "manifest": "https://raw.githubusercontent.com/psiondragon/dnd/refs/heads/main/module.json",
+  "readme": "",
+  "changelog": "",
+  "url": "https://github.com/psiondragon/dnd",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
@@ -16,10 +16,10 @@
   },
   "authors": [
     {
-      "name": "MrPrimate",
-      "email": "jack@mrprimate.co.uk",
-      "url": "https://mrprimate.co.uk",
-      "discord": "https://discord.gg/WzPuRuDJVP",
+      "name": "Psi",
+      "email": "psiondragon@gmail.com",
+      "url": "psionicdragon.com",
+      "discord": "psionicdragon",
       "flags": {}
     }
   ],
@@ -43,19 +43,9 @@
       }
     ]
   },
-  "scripts": [
-    "vendor/jszip/jszip.min.js"
-  ],
-  "esmodules": [
-    "dist/main.mjs"
-  ],
-  "styles": [
-    "css/default.css",
-    "css/import.css",
-    "css/journal.css",
-    "css/notifications.css",
-    "css/adventure.css"
-  ],
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
   "socket": true,
   "persistentStorage": true
 }
