@@ -1,21 +1,28 @@
 {
-  "name": "psi-module",
-  "title": "Psi Module",
-  "license": "NA",
+  "id": "psi-module",
+  "title": "Psi MOdule",
+  "license": "MIT License",
   "description": ".",
-  "author": "Psi",
-  "authors": [],
-  "url": "",
-  "flags": {},
-  "version": "12",
+  "version": "1",
+  "download": "https://github.com/mrprimate/ddb-importer/releases/download/6.3.0/ddb-importer.zip",
+  "manifest": "https://github.com/psiondragon/dnd/raw/refs/heads/main/psi-module.zip",
+  "readme": "",
+  "changelog": "",
+  "url": "https://github.com/mrprimate/ddb-importer",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
     "maximum": "13"
   },
-
-  "scripts": [],
-  "styles": [],
+  "authors": [
+    {
+      "name": "Psi",
+      "email": "psiondragon@gmail.com",
+      "url": "psionicdragon.com",
+      "discord": "psionicdragon",
+      "flags": {}
+    }
+  ],
   "languages": [
     {
       "lang": "en",
@@ -35,310 +42,10 @@
         }
       }
     ]
-  },  
-  "packs": [],
+  },
+  "scripts": [],
   "esmodules": [],
-  "dependencies": [
-    {
-      "name": "put-name-here-46",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_af9f01fe3ab5fa2ff7938123965e4e7c933792aff5e36d2f7bb49cb68f5a74e0/module.json"
-    },
-    {
-      "name": "put-name-here-47",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_e14c42fc497feffe31ceb406c6aeed619ddb9ec55aa65d3e636ea70d3f1a1dbb/module.json"
-    },
-    {
-      "name": "put-name-here-48",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_2ca68a80a006196ee664039a56c5c9df7672f07b152a67dd39ed0fd310783577/module.json"
-    },
-    {
-      "name": "put-name-here-49",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_29b8942e0f95d1e8f765a397c80d5048995a603d72f3743553a5bded972923f4/module.json"
-    },
-    {
-      "name": "put-name-here-50",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_1481ecb1d2f2282e03e92da884d925fc8c70f38a304be93d8de9e777a56b5857/module.json"
-    },
-    {
-      "name": "put-name-here-51",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_7f03fa2334a24308a720eab9a0ef75c1c2b025a354b88cf941e2aa1c4b684c20/module.json"
-    },
-    {
-      "name": "put-name-here-52",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_28765f3b42607643e749d49970c71e02e34601c72d0ad1f9a6b026bf617be60e/module.json"
-    },
-    {
-      "name": "put-name-here-53",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_18a7ebdf565dd76771fb590b3e6127179dd7261e06a5f3754fb7b7067dd5ebab/module.json"
-    },
-    {
-      "name": "put-name-here-54",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_869aa19b6c1191e26cf44be93233ec27c8681078063dbbbfdb273866d643f504/module.json"
-    },
-    {
-      "name": "put-name-here-55",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_f67752a74e853454fbdf117b2786b15e56ec9645f15753c0dc44c81759bdba99/module.json"
-    },
-    {
-      "name": "put-name-here-56",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_814021425006f403bea1c11b8516be5627c7e012e49cf0240c08b83117cd6d49/module.json"
-    },
-    {
-      "name": "put-name-here-57",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_dcfc268f1181c6083b20141ca3c991df3923119d8309ba7cb565344e15753a6a/module.json"
-    },
-    {
-      "name": "put-name-here-58",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_0ffa91a71e559f25e5103bae329e8f642248db3e27df4958e7939715176051f9/module.json"
-    },
-    {
-      "name": "put-name-here-59",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_ada03c8db2dd0a867b655614ce9d2b789c0b00d4e003f2c5ebdd484e74d6d51f/module.json"
-    },
-    {
-      "name": "put-name-here-60",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_11200e2b66f66e9666a220d5900548ff741df4ef8476f79dc6e8a2d9fc763b79/module.json"
-    },
-    {
-      "name": "put-name-here-61",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_0343db5722a65e574d413a051f6b4eaabb1440d38359673b866c1ae20a770a53/module.json"
-    },
-    {
-      "name": "put-name-here-62",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_f9f6995db444811502e2ffbf8717fdad6b325d5d178ca6c1e9c15e4d7f01a425/module.json"
-    },
-    {
-      "name": "put-name-here-63",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_8cdfad4c5cd4809177dbfb1b6debd858609b0bbad315aba5306860a437eed499/module.json"
-    },
-    {
-      "name": "put-name-here-64",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_7e9f3f662b3933b1e585b3c51a3d6a797b5a8fb28872c9778efb4b83833efa6c/module.json"
-    },
-    {
-      "name": "put-name-here-65",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_312f8167c6afa48642fa6a701b954bd8ef5cff8a095d992875e0bc63c64acb91/module.json"
-    },
-    {
-      "name": "put-name-here-66",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_ac9fa30931696c56be0e6c04718662d7e54bc4c18692fb18248d982d53c70e39/module.json"
-    },
-    {
-      "name": "put-name-here-67",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_82839639dabb0fcfb2543b02d632d0b560782935e36ef6547d8f559b8d347e39/module.json"
-    },
-    {
-      "name": "put-name-here-68",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_8ace1b165656a6794f50cf84704abcc18fb3650362db35bc49f6276e2ced013e/module.json"
-    },
-    {
-      "name": "put-name-here-69",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_798203a104f939b8e82f3f8d5555b106b7261c0dfd047e7a0b31e41dd87bd5f4/module.json"
-    },
-    {
-      "name": "put-name-here-70",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_a765b0662c57387a4ce0636f4e5a46f5ee340bbb94d95f3733d1ec0f437ee889/module.json"
-    },
-    {
-      "name": "put-name-here-71",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_afeaa4c44b72b1efa3f420c2b0550e511ddf1b9ccdf70cae5f510b001f37498d/module.json"
-    },
-    {
-      "name": "put-name-here-72",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_ed02c7140d01cdf2170d01e7104b319aeb29784669ccd1260ab43389aa1c9523/module.json"
-    },
-    {
-      "name": "put-name-here-73",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_7f3b9a4afca92845c20483292b57de9fd2859ef3358a9d84d7933d18cd65bcba/module.json"
-    },
-    {
-      "name": "put-name-here-74",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_7d735277e43bb14d35d639f09b16bc3e7902bf2c3ba65b3b0b47d6e163a1a776/module.json"
-    },
-    {
-      "name": "put-name-here-75",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_1e904ab6f752e3586b33d2545dccf4fd054337b3b35d50be8d264cb1331471e2/module.json"
-    },
-    {
-      "name": "put-name-here-76",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_277b3ee5e59ef954f288b14d01ec2ae1995e632bc703c7797b40da234c437217/module.json"
-    },
-    {
-      "name": "put-name-here-77",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_7995da357ca35e3dafcacd46b844a2746812926ea30837caa5e93ea945449516/module.json"
-    },
-    {
-      "name": "put-name-here-78",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_a2dc3ffec651ba0d7ac7498f9cb4adc3900b2753f861f6701c344bd490f1d6d6/module.json"
-    },
-    {
-      "name": "put-name-here-79",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_9fcbad46e94832f327b83f3a2ac658e8fcc01a437c41d053f66a3853548d286d/module.json"
-    },
-    {
-      "name": "put-name-here-80",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_c0d0f53f01d7f75603963c71cef732fde27394c320342dda29041c76a35d4eb2/module.json"
-    },
-    {
-      "name": "put-name-here-81",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_8b26d74a01a133dfd1fdbd3c35ba475a1d72dcd567805c57adf7bbd6c5b33efc/module.json"
-    },
-    {
-      "name": "put-name-here-82",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_76cf71c637a501dca56008a831334f64ec5e61248ffddd7fad7aeaf723250b9e/module.json"
-    },
-    {
-      "name": "put-name-here-83",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_3fe07e1dd74c1fd1e4cc389d11409fb576873bd4c6a71c5bbe92c0d28e053c87/module.json"
-    },
-    {
-      "name": "put-name-here-84",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_278786f15a9864a256ec9aeea38afb3d5b966727626d762599c1a8e2e6a15888/module.json"
-    },
-    {
-      "name": "put-name-here-85",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_8a61d5ca0ec7fb698e425c52140e57ff72babfcf8cd9623ee4cd3d9cb0ee2cff/module.json"
-    },
-    {
-      "name": "put-name-here-86",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_6f064a89bfd1c9eedd159e9917d42bc052c858c2407408037be8727f2d71596f/module.json"
-    },
-    {
-      "name": "put-name-here-87",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_68561e705cb54e8b92c07062aa64390c7d644e1fd54e9b589d61852c28d3fd45/module.json"
-    },
-    {
-      "name": "put-name-here-88",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_94ee1116e8db07615125bfcfe0134c311ab9a87f7ae8601de8928ba90a401d89/module.json"
-    },
-    {
-      "name": "put-name-here-89",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_6b868756e498fb0fd14f970d2a5e3b9ba0e6d3f32716fb008f1c48435772b417/module.json"
-    },
-    {
-      "name": "put-name-here-90",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_1639ee32a2cca794bd8fef46115abb5c7b8b04caf7ae10e4265037ef5de8eb83/module.json"
-    },
-    {
-      "name": "put-name-here-91",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_19a0c2fc90649ef0e28b0ffe3a07dd6689cd1b3a95f45f8fe422cb1c54f64e04/module.json"
-    },
-    {
-      "name": "put-name-here-92",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_98809004a38f9be300293f0613bc8405f3abe88ecd7f06c1a8356a37de6b31fc/module.json"
-    },
-    {
-      "name": "put-name-here-93",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_9316f29896bb50b7a924c4a5629eb9461b84c15da1c42d90548cdce9dcd7e4a8/module.json"
-    },
-    {
-      "name": "put-name-here-94",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_e321257c3e724ed064ea9114d95c01e2da27f91ca89ccc540918cdcbb6b616bf/module.json"
-    },
-    {
-      "name": "put-name-here-95",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_9631a09c202010a96d95ca26da2a411d3c78017bf8947cc7d19169eb18095639/module.json"
-    },
-    {
-      "name": "put-name-here-96",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_c9d1775ebf02eed97fed38173090b46cc82b69bdb0bc1cb81c8b43bc9b4455df/module.json"
-    },
-    {
-      "name": "put-name-here-97",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_b5372e1f5aedfb1fdae264d9ca99365b72296bfc054a2e158eb84c80798de0c8/module.json"
-    },
-    {
-      "name": "put-name-here-98",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_35d346a7ddc00bed1ac709330201c4cc59f21ecad0d81f3473b701df2940a8f0/module.json"
-    },
-    {
-      "name": "put-name-here-99",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_a1103591436d7a8a8ccb45b18beaabb41609b08a9f96ef3aabe0995844d4fe70/module.json"
-    },
-    {
-      "name": "put-name-here-100",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_c5fcbf084a2d5647115c2d360a7b0b7680d6d94ba21224f3b95ce7cf47f44ffe/module.json"
-    },
-    {
-      "name": "put-name-here-101",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_646a7baa46d2d5576f99d1c2b63c12eb075012ebbd1a6b8cafe7604122194d14/module.json"
-    },
-    {
-      "name": "put-name-here-102",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_b402caf47ea5a3fcd3118d20a7070dec7507b2baedb8cf836c18668a580592ca/module.json"
-    },
-    {
-      "name": "put-name-here-103",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_f72d647c9c1c731450d8c65a79fc6a80bf26461539290ed8c2d6ed4bec24d8c6/module.json"
-    },
-    {
-      "name": "put-name-here-104",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_4d7c7d5d829f4b46f22a06c248088c469978108094d2501796f905330ad5ccb2/module.json"
-    },
-    {
-      "name": "put-name-here-105",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_dda59ca15a88fdb131e952e8431c8eaf6866388dc8665aa879514d7eeb9774e8/module.json"
-    },
-    {
-      "name": "put-name-here-106",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_79cbdabb3c98ed709ca182af7a5aacbee2b4d5938e0d0e5aabf1553763862765/module.json"
-    },
-    {
-      "name": "put-name-here-107",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_4d2b3f7254b9c7b5d785c073e36df730fe30a30c4fe228dd30af999a71775b5e/module.json"
-    },
-    {
-      "name": "put-name-here-108",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_68e73ba85d4ea34424405ff7ddf444cdec601b25890c624ec774a6f7c5488272/module.json"
-    },
-    {
-      "name": "put-name-here-109",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_51953642fdaf1f5861dbf3b255ec7f1aad2bdb98bab82606a874ace045633b33/module.json"
-    },
-    {
-      "name": "put-name-here-110",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_90d67d1314fcf7dda654c9cc91e434a03dde33b52f32b9e5b8162fed47233e17/module.json"
-    },
-    {
-      "name": "put-name-here-111",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_91067ae1e38505213473f9334f4107282be1482e54d30a0a6fa687eb471a8005/module.json"
-    },
-    {
-      "name": "put-name-here-112",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_b0126451a94cae09f80f527d522b28a9936b89133239b357303af45b4aa259c0/module.json"
-    },
-    {
-      "name": "put-name-here-113",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_1929644159857b800f4bf90789656dcf3eb2319b958f8a5b8c20bb64659a5cd0/module.json"
-    },
-    {
-      "name": "put-name-here-114",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_5735135180694659d663790956dcc945c245c8f486ee2a68f4a3ab981839ee96/module.json"
-    },
-    {
-      "name": "put-name-here-115",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_d3314e237cc983f0dc3b447221c046b9e318f24b550b9d481b0a7363ce159f38/module.json"
-    },
-    {
-      "name": "put-name-here-116",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_8dac6dca73eabbeebac1423bad8e431fd53ae69ad7a367c7d413a08284708e58/module.json"
-    },
-    {
-      "name": "put-name-here-117",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_7f8d06ac896f01a4bae4d81d3e66876a2fb1412b0026bef2f08bc086a61d5246/module.json"
-    },
-    {
-      "name": "put-name-here-118",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_fe140973d77c597ea60ef6523b7c14b50c9deaa98508f0c26fcd4ebd50fb3bc6/module.json"
-    },
-    {
-      "name": "put-name-here-119",
-      "manifest": "https://www.dwwbattlemaps.com/map_modules//dw_e186c3cf951d0442ea1b07a35cb01a85080cd6bb4235c6fd3bb013d0f672af72/module.json"
-    }
-  ],
-  
+  "styles": [],
   "socket": true,
   "persistentStorage": true
-  "manifest": "https://raw.githubusercontent.com/psiondragon/dnd/refs/heads/main/module.json",
-  "download": "https://github.com/psiondragon/dnd/raw/refs/heads/main/psi-module.zip",
 }
