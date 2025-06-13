@@ -1,0 +1,45 @@
+{
+  "id": "psi-module",
+  "title": "Psi MOdule",
+  "license": "MIT License",
+  "version": "1",
+  "download": "https://github.com/psiondragon/dnd/raw/refs/heads/main/psi-module.zip",
+  "manifest": "https://raw.githubusercontent.com/psiondragon/dnd/refs/heads/main/module.json",
+  "url": "https://github.com/psiondragon/dnd",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Psi",
+      "email": "psiondragon@gmail.com",
+      "url": "psionicdragon.com",
+      "discord": "psionicdragon",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.3.5",
+          "verified": "4.3.5"
+        }
+      }
+    ]
+  },
+  "socket": true,
+  "persistentStorage": true
+}
